@@ -1,7 +1,7 @@
 var one = '1'
 var two = 2 
 
-var result = one * two 
+var result = one + two 
 
 console.log(typeof(result));
 console.log(result);
@@ -13,7 +13,7 @@ console.log(result);
 // Without template string 
 var str = "Hola, este es el resultado: " + result + " con algo adcional de lo que sea"
 
-// With template strings 
+// With template strings (backticks)
 
 var str2 = `Hola, este es el resultado: ${result} con algo adicional de lo que sea`
 

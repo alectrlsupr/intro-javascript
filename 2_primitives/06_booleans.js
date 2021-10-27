@@ -12,3 +12,4 @@ console.log(result);
 // OR (||) requires that at least one 
 var resultTwo = boolValue || !boolValue
 console.log(resultTwo)
+
